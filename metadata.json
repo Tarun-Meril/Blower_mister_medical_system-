@@ -1,0 +1,6 @@
+{
+  "name": "Programmable Blower/Mister Medical System",
+  "description": "An engineering platform integrating CO₂ delivery, saline delivery, programmable operating profiles, sensor feedback, and controlled mist generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

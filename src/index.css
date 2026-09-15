@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #0A111A;
+    color: #F1F5F9;
+  }
+  
+  html.dark {
+    background-color: #0A111A;
+    color: #F1F5F9;
+    color-scheme: dark;
+  }
+
+  html.light {
+    background-color: #0A111A;
+    color: #F1F5F9;
+    color-scheme: dark;
+  }
+
+  .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* =========================================================================
+   Unified #0A111A System Theme (Engineering Grade Contrast & Dark Navy Palette)
+   ========================================================================= */
+
+:root {
+  --bg-app: #0A111A;
+  --bg-card: #0E1726;
+  --bg-surface: #142032;
+  --bg-subtle: #1E2F46;
+  --accent-primary: #38BDF8;
+  --accent-secondary: #7DD3FC;
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --border-subtle: #1E2F46;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A111A;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2F46;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #38BDF8;
+}
+
+/* Smooth transitions */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #0A111A;
+  color: #F8FAFC;
+}
